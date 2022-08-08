@@ -5,7 +5,7 @@
 Console.Clear();
 Console.Write("Введите размер массива: ");
 int userSize = Int32.Parse(Console.ReadLine());
-int[] array = FillArrayRnd(userSize, 99, 1000);
+int[] array = FillArrayRnd(userSize, 99, 999);
 PrintArray(array);
 int count = NumberOfEvenNumbers(array);
 Console.WriteLine(" -> " + count);
